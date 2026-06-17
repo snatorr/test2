@@ -201,6 +201,7 @@ div, ul, nav, header, footer, a, li, label, body {
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
+    position: static;
     z-index: -2;
 }
 
