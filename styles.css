@@ -19,7 +19,7 @@ div, ul, nav, header, footer, a, li, label, body {
 .header {
     background-color: white;
     position: relative;
-    z-index: 10;
+    z-index: 9999 !important;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,6 +57,7 @@ div, ul, nav, header, footer, a, li, label, body {
     font-weight: 600;
     position: absolute;
     right: 10px;
+    z-index: 10;
 }
 
 .header__checkbox {
@@ -69,8 +70,8 @@ div, ul, nav, header, footer, a, li, label, body {
     position: absolute;
     height: 100dvh;
     width: 100dvw;
-    top: 0;
-    z-index: -1;
+    top: 60px;
+    z-index: 5;
 }
 
 .header__nav-list {
