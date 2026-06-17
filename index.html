@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Terreno San Luís</title>
 </head>
 <body>
     <header class="header">
@@ -50,22 +50,40 @@
             </ul>
         </nav>
     </header>
-    <div class="galeria-contenedor">
-        <a href="#foto1"><img src="assets/pics/1.jpg" alt="Foto 1" class="galeria-item"></a>
-        <a href="#foto2"><img src="assets/pics/2.jpg" alt="Foto 2" class="galeria-item"></a>
-        <a href="#foto3"><img src="assets/pics/3.jpg" alt="Foto 3" class="galeria-item"></a>
+    <div class="header__subtitle-container">
+        <h2 class="header__subtitle">
+            Terreno en venta
+        </h2>
     </div>
-    <div id="foto1" class="modal-foto">
-        <a href="#" class="modal-cerrar">X</a>
-        <img src="assets/pics/1.jpg" alt="Foto 1 Grande">
+    <div class="galery__container">
+        <div class="galery__item">
+            <img src="assets/pics/1.jpg" alt="Foto 1">
+        </div>
+        <div class="galery__item">
+            <img src="assets/pics/2.jpg" alt="Foto 2">
+        </div>
+        <div class="galery__item">
+            <img src="assets/pics/3.jpg" alt="Foto 3">
+        </div>
+        <div class="galery__item">
+            <img src="assets/pics/4.jpg" alt="Foto 4">
+        </div>
+        <div class="galery__item">
+            <img src="assets/pics/5.jpg" alt="Foto 5">
+        </div>
+        <div class="galery__item">
+            <img src="assets/pics/6.jpg" alt="Foto 6">
+        </div>
     </div>
-    <div id="foto2" class="modal-foto">
-        <a href="#" class="modal-cerrar">X</a>
-        <img src="assets/pics/2.jpg" alt="Foto 2 Grande">
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox__content" id="big-img" src="" alt="Imagen ampliada">
     </div>
-    <div id="foto3" class="modal-foto">
-        <a href="#" class="modal-cerrar">X</a>
-        <img src="assets/pics/3.jpg" alt="Foto 2 Grande">
-    </div>
+    <p class="galery__description">Deslizar y/o hacer click en la imágen para abrir.</p>
+    <!-- HTML -->
+    <a href="https://wa.me/5491169232801?text=Hola!%20Me%20interesa%20el%20terreno%20en%20San%20Luis" class="btn-whatsapp" target="_blank">
+        💬 Consultar por WhatsApp
+    </a>
+    <script src="script.js"></script>
 </body>
 </html>
